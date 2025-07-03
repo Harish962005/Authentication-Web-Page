@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6e3;
+  background-image: radial-gradient(#c0ffbd 4px, transparent 4px);
+  background-size: 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.bubble {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  width: 50%;
+  border: 6px solid #afff9c;
+  border-radius: 30px;
+  box-shadow: 8px 8px 0 #a9ff0a;
+  position: relative;
+  font-size: 4rem;
+  color: #ff774d;
+  text-align: center;
+}
+
+
+.name {
+  color: #1982c4;
+}
