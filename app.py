@@ -3,14 +3,14 @@ import mysql.connector
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+
 
 
 def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Harish2005",
+        password="XXXXXXX",
         database="authentication",
         buffered=True   
     )
